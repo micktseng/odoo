@@ -1,4 +1,4 @@
-FROM micktseng/odoo:11.0
+FROM suncombo/odoo:11.0
 
 USER root
 
