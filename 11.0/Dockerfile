@@ -55,7 +55,7 @@ USER 0
 
 # Copy entrypoint script and Odoo configuration file
 RUN python3 -m pip install --upgrade pip \
-  && pip3 install num2words xlwt phonenumbers \
+  && pip3 install num2words phonenumbers \
   && pip3 install -r /odoo/source/requirements.txt
 
 COPY ./entrypoint.sh /
